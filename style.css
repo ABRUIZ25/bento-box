@@ -1,0 +1,17 @@
+.box {
+    display: grid;
+    grid-template-columns: 110px 185px 185px;
+    grid-template-rows: 80px 100px 70px 80px 50px;
+    grid-template-areas:"fish fish short"
+    "map map short"
+    "tall bab bab"
+    "tall bab bab"
+    "tal quad quad";
+}
+
+.fish{ grid-area: fish;}
+.short{ grid-area: short;}
+.map{ grid-area: map;}
+.bab{ grid-area: bab;}
+.tall{ grid-area: tall;}
+.quad{ grid-area: quad;}
