@@ -1,7 +1,7 @@
 .box {
     display: grid;
-    grid-template-columns: 110px 185px 185px;
-    grid-template-rows: 80px 100px 70px 80px 50px;
+    grid-template-columns: 110px 185px 190px;
+    grid-template-rows: 80px 100px 121px 80px 90px;
     grid-template-areas:"fish fish short"
     "map map short"
     "tall bab bab"
